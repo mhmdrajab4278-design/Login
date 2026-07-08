@@ -6,18 +6,19 @@
 }
 
 body {
-    
+    margin: 0;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background: url("m.jpg") no-repeat center;
     background-size: cover;
-    padding: 0 60px;
+    padding: 20px;
     
 }
 .card {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     height: 450px;
     border: 4px solid transparent;
     display: flex;
@@ -43,7 +44,7 @@ h1 {
 }
 
 .card .inputs input{
-    width: 400px;
+    width: 100%;
     height: 55px;
     font-size: 16px;
     margin: 10px 5px;
@@ -105,7 +106,7 @@ h1 {
 }
 
 .card .btn button{
-    width: 400px;
+    width: 100%;
     border-radius: 20px;
     height: 45px;
     margin: 5px;
