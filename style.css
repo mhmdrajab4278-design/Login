@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("m.jpg") no-repeat center;
+    background-size: cover;
+    
+}
+.card {
+    width: 500px;
+    height: 450px;
+    border: 4px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+    border: 2px solid rgba(255, 255, 255, 0.203);
+    border-radius: 15px;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 50px;
+    color: white;
+}
+
+.card .inputs {
+    position: relative;
+
+}
+
+.card .inputs input{
+    width: 400px;
+    height: 55px;
+    font-size: 16px;
+    margin: 10px 5px;
+    border-radius: 20px;
+    padding: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.452);
+    background: transparent;
+
+    outline: none;
+}
+
+.card .inputs input:focus {
+    outline: none;
+    border: 4px solid rgba(255, 255, 255, 0.507);
+}
+
+.card .inputs i {
+    position: absolute;
+    right: 20px;
+    top: 24px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.card .inputs input::placeholder {
+    color: white;
+
+}
+
+.card .login {
+    text-align: center;
+}
+
+.card .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    font-size: 18px;
+    margin: 0 0 15px;
+    color: white;
+}
+
+.card .remember-forgot label input {
+    accent-color: black;
+    height: 16px;
+    width: 15px;
+    margin:  0 0 0;
+}
+
+.card .remember-forgot a {
+    color: white;
+    text-decoration: none;
+}
+
+.card .remember-forgot a:hover {
+    
+    text-decoration: underline;
+}
+
+.card .btn button{
+    width: 400px;
+    border-radius: 20px;
+    height: 45px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.card .last {
+    margin: 10px;
+    font-size: 17px;
+    color: white;
+}
+
+.card .last a {
+    color: white;
+    text-decoration: none;
+}
+
+.card .last a:hover{
+    text-decoration: underline;
+}
